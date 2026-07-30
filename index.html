@@ -2,385 +2,860 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>HiTech Dev | AI Engineer & Full Stack Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="style.css">
+    <title>
+        HiTech Dev | Generative AI Engineer
+    </title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:
+                "Inter",
+                Arial,
+                sans-serif;
+        }
+
+
+        body {
+
+            background:
+                linear-gradient(135deg,
+                    #020617,
+                    #0f172a);
+
+            color: white;
+
+        }
+
+
+        header {
+
+            position: sticky;
+            top: 0;
+
+            background: #020617cc;
+
+            backdrop-filter: blur(10px);
+
+            padding: 20px 10%;
+
+        }
+
+
+        nav {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+
+        nav h2 {
+
+            color: #22d3ee;
+
+        }
+
+
+        nav a {
+
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+
+        }
+
+
+
+        .hero {
+
+            min-height: 90vh;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            padding: 80px 10%;
+
+        }
+
+
+
+        .hero h1 {
+
+            font-size: 70px;
+
+        }
+
+
+
+        .hero h2 {
+
+            color: #22d3ee;
+
+            font-size: 35px;
+
+            margin-top: 20px;
+
+        }
+
+
+        .hero p {
+
+            font-size: 22px;
+
+            color: #cbd5e1;
+
+            margin-top: 30px;
+
+            max-width: 650px;
+
+        }
+
+
+
+        .btn {
+
+            display: inline-block;
+
+            margin-top: 40px;
+
+            padding: 15px 30px;
+
+            background: #22d3ee;
+
+            color: #020617;
+
+            border-radius: 10px;
+
+            font-weight: bold;
+
+            text-decoration: none;
+
+        }
+
+
+
+        .profile {
+
+            width: 280px;
+            height: 280px;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(45deg,
+                    #22d3ee,
+                    #6366f1);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 80px;
+
+        }
+
+
+
+        section {
+
+            padding: 70px 10%;
+
+        }
+
+
+        h2.section-title {
+
+            font-size: 42px;
+
+            margin-bottom: 40px;
+
+            color: #22d3ee;
+
+        }
+
+
+
+        .card-container {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(auto-fit, minmax(280px, 1fr));
+
+            gap: 25px;
+
+        }
+
+
+
+        .card {
+
+            background: #111827;
+
+            padding: 30px;
+
+            border-radius: 20px;
+
+            border:
+                1px solid #334155;
+
+            transition: .3s;
+
+        }
+
+
+        .card:hover {
+
+            transform: translateY(-10px);
+
+            border-color: #22d3ee;
+
+        }
+
+
+
+        .card h3 {
+
+            font-size: 25px;
+
+            margin-bottom: 15px;
+
+        }
+
+
+
+        .card p {
+
+            color: #cbd5e1;
+
+            line-height: 1.7;
+
+        }
+
+
+
+        .skill {
+
+            display: inline-block;
+
+            background: #1e293b;
+
+            padding: 10px 20px;
+
+            margin: 8px;
+
+            border-radius: 20px;
+
+        }
+
+
+
+        .architecture {
+
+            background: #111827;
+
+            padding: 40px;
+
+            border-radius: 20px;
+
+            font-size: 20px;
+
+            color: #67e8f9;
+
+            line-height: 2;
+
+        }
+
+
+
+        footer {
+
+            text-align: center;
+
+            padding: 40px;
+
+            color: #94a3b8;
+
+        }
+    </style>
 
 </head>
+
 
 
 <body>
 
 
-<header>
 
-<nav>
+    <header>
 
-<h2>HiTech Dev</h2>
+        <nav>
 
-<ul>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+            <h2>
+                HiTech Dev
+            </h2>
 
-</nav>
 
-</header>
+            <div>
 
+                <a href="#about">
+                    About
+                </a>
 
+                <a href="#skills">
+                    Skills
+                </a>
 
-<section class="hero">
 
+                <a href="#projects">
+                    Projects
+                </a>
 
-<div class="hero-text">
 
-<h1>
-Hi, I'm HiTech Dev
-</h1>
+                <a href="#contact">
+                    Contact
+                </a>
 
 
-<h2>
-AI Engineer | Full Stack Developer
-</h2>
+            </div>
 
 
-<p>
-Building AI-powered applications,
-LLM systems, RAG solutions,
-and scalable SaaS platforms.
-</p>
+        </nav>
 
+    </header>
 
-<div>
 
-<a class="button" href="#projects">
-View Projects
-</a>
 
 
-<a class="button secondary"
-href="resume.pdf"
-download>
-Download Resume
-</a>
 
+    <section class="hero">
 
-</div>
 
+        <div>
 
-</div>
 
+            <h1>
+                Hi, I'm HiTech Dev 👋
+            </h1>
 
 
-<div class="profile">
+            <h2>
+                Generative AI Engineer
+            </h2>
 
-<img src="images/profile.jpg"
-alt="HiTech Dev">
 
-</div>
 
+            <p>
 
-</section>
+                Building intelligent applications with
+                Large Language Models,
+                Retrieval-Augmented Generation,
+                AI Agents,
+                FastAPI,
+                and modern full-stack technologies.
 
+            </p>
 
 
+            <a class="btn" href="#projects">
+                View AI Projects
+            </a>
 
 
-<section id="about">
+            <a class="btn" href="resume.pdf">
 
-<h2>About Me</h2>
+                Download Resume
 
+            </a>
 
-<p>
 
-I am a software developer focused on
-Artificial Intelligence, Machine Learning,
-and modern web applications.
+        </div>
 
-I build intelligent products using
-LLMs, APIs, cloud technologies,
-and full-stack frameworks.
 
-</p>
 
+        <div class="profile">
 
-</section>
+            🤖
 
+        </div>
 
 
 
+    </section>
 
 
-<section id="skills">
 
 
-<h2>Technical Skills</h2>
 
+    <section id="about">
 
-<div class="cards">
 
+        <h2 class="section-title">
 
-<div class="card">
+            About Me
 
-<h3>AI Engineering</h3>
+        </h2>
 
-<p>
-Python,
-LLMs,
-OpenAI API,
-LangChain,
-RAG,
-Vector Database,
-Machine Learning
-</p>
 
-</div>
+        <p>
 
+            I am an AI-focused software developer
+            building production-ready applications
+            using LLMs, RAG systems,
+            AI APIs, and full-stack frameworks.
 
+            My goal is creating practical AI products
+            that solve real-world problems.
 
+        </p>
 
-<div class="card">
 
-<h3>Frontend</h3>
+    </section>
 
-<p>
-React,
-Next.js,
-JavaScript,
-HTML,
-CSS,
-Tailwind CSS
-</p>
 
-</div>
 
 
 
 
-<div class="card">
 
-<h3>Backend</h3>
+    <section>
 
-<p>
-Node.js,
-FastAPI,
-PostgreSQL,
-MongoDB,
-REST API,
-Docker
-</p>
 
-</div>
+        <h2 class="section-title">
 
+            AI Engineer Dashboard
 
-</div>
+        </h2>
 
 
-</section>
+        <div class="card-container">
 
 
+            <div class="card">
 
+                <h3>
+                    Core Focus
+                </h3>
 
+                <p>
 
+                    LLMs<br>
+                    RAG Systems<br>
+                    AI Agents<br>
+                    AI SaaS Applications
 
+                </p>
 
-<section id="projects">
+            </div>
 
 
-<h2>GitHub Projects</h2>
 
+            <div class="card">
 
-<div class="cards">
+                <h3>
+                    Development
+                </h3>
 
+                <p>
 
+                    Full Stack Development<br>
+                    Backend APIs<br>
+                    Cloud Deployment<br>
+                    Docker
 
+                </p>
 
+            </div>
 
-<div class="card project">
 
 
-<h3>
-AI Chat Assistant
-</h3>
+            <div class="card">
 
+                <h3>
+                    Open To
+                </h3>
 
-<p>
+                <p>
 
-ChatGPT-style assistant using
-LLM APIs, RAG,
-and document search.
+                    Remote AI Engineer Roles<br>
+                    AI Application Development<br>
+                    Collaboration
 
-</p>
+                </p>
 
+            </div>
 
-<a href="https://github.com/hiSoft1129/ai-chat-assistant">
-GitHub →
-</a>
 
+        </div>
 
-</div>
 
+    </section>
 
 
 
 
 
-<div class="card project">
 
 
-<h3>
-AI Resume Analyzer
-</h3>
+    <section id="skills">
 
 
-<p>
+        <h2 class="section-title">
 
-AI application that analyzes resumes
-and provides career recommendations.
+            Technical Skills
 
-</p>
+        </h2>
 
 
-<a href="https://github.com/hiSoft1129/ai-resume-analyzer">
-GitHub →
-</a>
+        <div>
 
 
-</div>
+            <span class="skill">
+                Python
+            </span>
 
+            <span class="skill">
+                LLMs
+            </span>
 
 
+            <span class="skill">
+                RAG
+            </span>
 
 
+            <span class="skill">
+                LangChain
+            </span>
 
 
-<div class="card project">
+            <span class="skill">
+                FastAPI
+            </span>
 
 
-<h3>
-SaaS Dashboard
-</h3>
+            <span class="skill">
+                React
+            </span>
 
 
-<p>
+            <span class="skill">
+                Next.js
+            </span>
 
-Full-stack SaaS platform with
-authentication,
-database,
-and analytics.
 
-</p>
+            <span class="skill">
+                TypeScript
+            </span>
 
 
-<a href="https://github.com/hiSoft1129/saas-dashboard">
-GitHub →
-</a>
+            <span class="skill">
+                PostgreSQL
+            </span>
 
 
-</div>
+            <span class="skill">
+                Docker
+            </span>
 
 
+            <span class="skill">
+                Git
+            </span>
 
 
+        </div>
 
 
-<div class="card project">
+    </section>
 
 
-<h3>
-AI Automation Tool
-</h3>
 
 
-<p>
 
-Business workflow automation
-powered by artificial intelligence.
 
-</p>
 
+    <section id="projects">
 
-<a href="https://github.com/hiSoft1129/ai-automation">
-GitHub →
-</a>
 
+        <h2 class="section-title">
 
-</div>
+            Featured AI Projects
 
+        </h2>
 
 
-</div>
+        <div class="card-container">
 
 
-</section>
 
+            <div class="card">
 
+                <h3>
+                    MoodMateAI
+                </h3>
 
 
+                <p>
 
+                    AI wellness assistant powered by:
 
+                    <br><br>
 
+                    ✓ LLMs
 
-<section id="contact">
+                    <br>
 
+                    ✓ NLP
 
-<h2>Contact</h2>
+                    <br>
 
+                    ✓ FastAPI
 
-<p>
-Email:
-<a href="mailto:donlieb1129@outlook.com">
-donlieb1129@outlook.com
-</a>
-</p>
+                    <br>
 
+                    ✓ React
 
+                    <br>
 
-<p>
-GitHub:
+                    ✓ Personalized AI conversation
 
-<a href="https://github.com/hiSoft1129">
-github.com/hiSoft1129
-</a>
+                </p>
 
-</p>
 
+            </div>
 
 
-<p>
 
-LinkedIn:
 
-<a href="#">
-Add your LinkedIn URL
-</a>
 
-</p>
+            <div class="card">
 
 
+                <h3>
+                    RAG PDF Chatbot
+                </h3>
 
-</section>
 
+                <p>
 
+                    Document intelligence chatbot.
 
+                    <br><br>
 
+                    PDF Upload
 
-<footer>
+                    ↓
 
-<p>
-© 2026 HiTech Dev
-</p>
+                    Text Extraction
 
-</footer>
+                    ↓
 
+                    Embeddings
 
+                    ↓
 
-<script src="script.js"></script>
+                    Vector Database
+
+                    ↓
+
+                    LLM Response
+
+                </p>
+
+
+            </div>
+
+
+
+
+
+            <div class="card">
+
+
+                <h3>
+                    GenAI Python Lab
+                </h3>
+
+
+                <p>
+
+                    AI experiments including:
+
+                    <br><br>
+
+                    Prompt Engineering
+
+                    <br>
+
+                    AI Agents
+
+                    <br>
+
+                    LLM Workflows
+
+                    <br>
+
+                    RAG Experiments
+
+                </p>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section>
+
+
+        <h2 class="section-title">
+
+            AI Architecture
+
+        </h2>
+
+
+        <div class="architecture">
+
+
+            User
+
+            <br>
+            ↓
+
+            <br>
+
+            Next.js Frontend
+
+            <br>
+            ↓
+
+            <br>
+
+            FastAPI Backend
+
+            <br>
+            ↓
+
+            <br>
+
+            AI Agent Layer
+
+            <br>
+            ↓
+
+            <br>
+
+            LLM + RAG Pipeline
+
+            <br>
+            ↓
+
+            <br>
+
+            Vector Database
+
+            <br>
+            ↓
+
+            <br>
+
+            AI Response
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section id="contact">
+
+
+        <h2 class="section-title">
+
+            Contact
+
+        </h2>
+
+
+        <p>
+
+            Email:
+
+            <a href="mailto:donlieb1129@outlook.com">
+
+                donlieb1129@outlook.com
+
+            </a>
+
+
+        </p>
+
+
+        <br>
+
+
+        <p>
+
+            GitHub:
+
+            <a href="https://github.com/hiSoft1129">
+
+                github.com/hiSoft1129
+
+            </a>
+
+        </p>
+
+
+
+    </section>
+
+
+
+
+
+
+    <footer>
+
+
+        © 2026 HiTech Dev
+
+        <br>
+
+        Generative AI Engineer Portfolio
+
+
+    </footer>
+
+
 
 
 </body>
